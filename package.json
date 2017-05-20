@@ -1,0 +1,33 @@
+{
+    "name": "cobalt-blue",
+    "displayName": "Cobalt Blue",
+    "description": "Cobalt Blue Visual Studio Code Color Theme",
+    "version": "1.0.0",
+    "publisher": "debugjunkie",
+    "license": "MIT License",
+    "icon": "images/vscode-cobalt-blue_icon.png",
+	"galleryBanner": {
+		"color": "#003099",
+		"theme": "dark"
+	},
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/debugjunkie/vscode-cobalt-blue.git"
+	},
+
+    "engines": {
+        "vscode": "^1.12.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Cobalt Blue",
+                "uiTheme": "vs-dark",
+                "path": "./themes/cobalt-blue-color-theme.json"
+            }
+        ]
+    }
+}
